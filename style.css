@@ -1,0 +1,238 @@
+
+  .container1{
+    text-align: center;
+  
+    display: flex;
+    font-weight: 100;
+    justify-content: center;
+    height: 600px;
+    width: 1500px;
+    margin: 91px auto;
+    transform: translateX(0);
+    transition: all 0.5s ease-in-out;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  
+  .centered {
+    margin-left: 35px;
+    margin-right: 5px;
+  }
+  
+  .title_text {
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 500;
+    font-size: 64px;
+    color: #FFFFFF;
+    -webkit-user-select: none;     
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  .medium_text {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    color: #FFFFFF;
+    -webkit-user-select: none;     
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  .member_text {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    width: 100%;
+    margin-top: 2px;
+    text-shadow: 1px 1px 10px black;
+    -webkit-user-select: none;     
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  .quartz_text {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #F7CAC9;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    width: 100%;
+    margin-top: 2px;
+    text-shadow: 1px 1px 10px black;
+    -webkit-user-select: none;     
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  .member_description {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #FFFFFF;
+    opacity: 0.65;
+    text-align: center;
+    padding: 5px;
+  }
+  
+  .member_container {
+    width: 200px;
+    border-radius: 8px;
+    background-color: #303133;
+    position: relative;
+    max-height: 300px
+  }
+  
+  .owner_txt {
+  color:#FFFFFF;
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 32px;
+  font-weight:700;
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: url(https://64.media.tumblr.com/90711e71c33437ba5e5e53b5120accb7/74be7c494790808d-04/s400x600/eb988970886b5099ee2a8a8c53db26dc2fdd0336.gifv), linear-gradient(90deg, #ffffff00 0, rgba(255, 255, 0, 0) 100%, rgba(255, 255, 255, 0));
+  text-shadow: 2px 2px 10px black;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    width: 100%;
+    margin-top: 2px;
+    -webkit-user-select: none;     
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  .admin_text {
+  color:#FFFFFF;
+  font-family: 'Dosis', sans-serif;
+  font-size: 32px;
+  font-weight:700;
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(
+  to right,
+      #462523 0,
+      #ff66ff 12%, 
+      #ff66ff 45%,
+      #ff00ff 50%,
+      #ff66ff 55%,
+      #ff66cc 88%,
+      #462523 100%
+  );
+  
+  
+  text-shadow: 1px 1px 10px black;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    width: 100%;
+    margin-top: 2px;
+    -webkit-user-select: none;     
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  .member_image {
+    object-fit:cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+  }
+  
+  .furwei_text {
+    color:#FFFFFF;
+    font-family: 'Dosis', sans-serif;
+    font-size: 32px;
+    font-weight:700;
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: url(https://64.media.tumblr.com/6e906bf255fa039aee668ed36400c831/tumblr_nyyzitPYab1ti63vbo1_400.gifv), linear-gradient(90deg, #FF4F11 0, yellow 100%, #fff);
+    text-shadow: 2px 2px 10px black;
+      position: absolute;
+      top: 0;
+      text-align: center;
+      width: 100%;
+      margin-top: 2px;
+      -webkit-user-select: none;     
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+  
+    body{
+      background-color: #1e1e24;
+    }
+  
+  
+  .gap-4{
+    gap: 1rem;
+  }
+  
+  .flexed{
+    display: flex;
+  }
+  
+  /*ELvalaszto*/
+  .price{
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 23px;
+  } 
+  
+  .sticker{
+    text-align: center;
+    font-size: 50px;
+    font-size: 62px;
+    font-weight:700;
+    background-image: url(https://64.media.tumblr.com/1b07e37fdc645220b11ee3023fe3c4ac/8359c69e8c9807fe-fc/s640x960/ba364d121131d1661777f040407672a9d694b32c.gif), linear-gradient(90deg, rgba(248, 245, 244, 0) 0, rgba(255, 255, 255, 0) 100%, rgba(255, 255, 255, 0));
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+  }
+  
+  .about_us{
+    border: 7px solid;
+    box-sizing: border-box;
+    margin-left: 475px;
+    margin-right: 475px;
+    text-align: center;
+    border-image: url(proba.gif) 10;
+    box-shadow: 20px 20px 40px black;
+    border-style: solid;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+  }
+  
+  .about_me{
+    text-align: center;
+    position: relative;
+  }
+  
+  .member_image {
+    object-fit:cover;
+    width: 200px;
+    height: 200px
+  }
+
+  
