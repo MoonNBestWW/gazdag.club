@@ -1,171 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
 
-  .container1{
+body {
+    font-family: 'Source Sans Pro', sans-serif !important;
+    background-color: rgb(26, 26, 26);
+}
+
+h1 {
+    -webkit-background-clip: text;
+    text-shadow: 0 0 6px #ffef5b;
+    animation: slideLeft .8s;
+    background-image: url(bg1.gif),linear-gradient(90deg,#ffe225 0,#2f6262 100%,#1a4241);
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+}
+
+.row {
+    background-color: rgb(19, 19, 19);
+    border-radius: 14px;
+}
+
+.col-md-3 p {
+    color: white;
     text-align: center;
-  
-    display: flex;
-    font-weight: 100;
-    justify-content: center;
-    height: 600px;
-    width: 1500px;
-    margin: 91px auto;
-    transform: translateX(0);
-    transition: all 0.5s ease-in-out;
-  }
-  
-  a{
-    text-decoration: none;
-  }
-  
-  .centered {
-    margin-left: 35px;
-    margin-right: 5px;
-  }
-  
-  .title_text {
-    font-family: 'Source Sans 3', sans-serif;
-    font-weight: 500;
-    font-size: 64px;
-    color: #FFFFFF;
-    -webkit-user-select: none;     
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-  }
-  
-  .medium_text {
+}
+
+.since_txt{
+    -webkit-background-clip: text;
+    text-shadow: 0 0 6px #ffef5b;
+    animation: slideLeft .8s;
+    background-image: url(bg1.gif),linear-gradient(90deg,#ffe225 0,#2f6262 100%,#1a4241);
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    text-align: center;
+    font-size: 22px;
+}
+
+.member_description {
     font-family: 'Dosis', sans-serif;
     font-weight: 300;
-    font-size: 32px;
+    font-size: 14px;
+    font-weight: bold;
     color: #FFFFFF;
-    -webkit-user-select: none;     
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-  }
-  
-  .member_text {
-    font-family: 'Dosis', sans-serif;
-    font-weight: 700;
-    font-size: 32px;
-    color: #FFFFFF;
-    position: absolute;
-    top: 0;
+    opacity: 0.85;
     text-align: center;
-    width: 100%;
-    margin-top: 2px;
-    text-shadow: 1px 1px 10px black;
-    -webkit-user-select: none;     
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-  }
-  
-  .quartz_text {
-    font-family: 'Dosis', sans-serif;
-    font-weight: 700;
-    font-size: 32px;
-    color: #F7CAC9;
-    position: absolute;
-    top: 0;
+    padding: 14px;
+}
+
+.member_image {
+    width: 150px;
+    height: 150px;
     text-align: center;
-    width: 100%;
-    margin-top: 2px;
-    text-shadow: 1px 1px 10px black;
-    -webkit-user-select: none;     
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-  }
-  
-  .member_description {
-    font-family: 'Dosis', sans-serif;
-    font-weight: 300;
-    font-size: 18px;
-    color: #FFFFFF;
-    opacity: 0.65;
+    border-radius: 7px;
+}
+
+.MoonN_image {
+    width: 150px;
+    height: 150px;
     text-align: center;
-    padding: 5px;
-  }
-  
-  .member_container {
-    width: 200px;
-    border-radius: 8px;
-    background-color: #303133;
-    position: relative;
-    max-height: 300px
-  }
-  
-  .owner_txt {
-  color:#FFFFFF;
-  font-family: 'Source Sans 3', sans-serif;
-  font-size: 32px;
-  font-weight:700;
-  background-clip: border-box;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-image: url(https://64.media.tumblr.com/94ec34551fe6ab0970299f380843f80d/5841028460254488-52/s400x600/fa6a662d04e01ee5ff4f4ea3d5d1eb5a28633b5f.gifv), linear-gradient(90deg, #ffffff00 0, rgba(255, 255, 0, 0) 100%, rgba(255, 255, 255, 0));
-  text-shadow: 2px 2px 10px black;
-    position: absolute;
-    top: 0;
+    border-radius: 7px;
+}
+
+.furwei_image {
+    width: 150px;
+    height: 150px;
     text-align: center;
-    width: 100%;
-    margin-top: 2px;
-    -webkit-user-select: none;     
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-  }
-  
-  .admin_text {
-  color:#FFFFFF;
-  font-family: 'Dosis', sans-serif;
-  font-size: 32px;
-  font-weight:700;
-  background-clip: border-box;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-image: linear-gradient(
-  to right,
-      #462523 0,
-      #ff66ff 12%, 
-      #ff66ff 45%,
-      #ff00ff 50%,
-      #ff66ff 55%,
-      #ff66cc 88%,
-      #462523 100%
-  );
-  
-  
-  text-shadow: 1px 1px 10px black;
-    position: absolute;
-    top: 0;
-    text-align: center;
-    width: 100%;
-    margin-top: 2px;
-    -webkit-user-select: none;     
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-  }
-  
-  .member_image {
-    object-fit:cover;
-    width: 200px;
-    height: 200px;
-    border-radius: 5px;
-  }
-  
-  .furwei_text {
+    border-radius: 100px;
+}
+
+.furwei_txt {
     color:#FFFFFF;
-    font-family: 'Dosis', sans-serif;
-    font-size: 32px;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 25px;
     font-weight:700;
     background-clip: border-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-image: url(https://64.media.tumblr.com/6e906bf255fa039aee668ed36400c831/tumblr_nyyzitPYab1ti63vbo1_400.gifv), linear-gradient(90deg, #FF4F11 0, yellow 100%, #fff);
+    background-image: url(https://64.media.tumblr.com/b88bd341f9001b8f39f5e2a85a5668b3/e17dbf1ec3b461f1-49/s400x600/63bf86642ed6b122d14572223e2f62c162f33067.gifv), linear-gradient(90deg, #ffffff00 0, rgba(255, 255, 0, 0) 100%, rgba(255, 255, 255, 0));
     text-shadow: 2px 2px 10px black;
-      position: absolute;
       top: 0;
       text-align: center;
       width: 100%;
@@ -175,64 +86,44 @@
       -ms-user-select: none;
       user-select: none;
     }
-  
-    body{
-      background-color: #1e1e24;
-    }
-  
-  
-  .gap-4{
-    gap: 1rem;
-  }
-  
-  .flexed{
-    display: flex;
-  }
-  
-  /*ELvalaszto*/
-  .price{
-    font-family: 'Source Sans 3', sans-serif;
-    font-size: 17px;
-    font-weight: bold;
-    color: #fff;
-    margin-top: 23px;
-  } 
-  
-  .sticker{
-    text-align: center;
-    font-size: 50px;
-    font-size: 62px;
-    font-weight:700;
-    background-image: url(https://64.media.tumblr.com/6e906bf255fa039aee668ed36400c831/tumblr_nyyzitPYab1ti63vbo1_400.gifv), linear-gradient(90deg, rgb(255, 168, 168) 0, rgb(255, 154, 154) 100%, rgb(253, 214, 214));
-    background-clip: border-box;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  
-  }
-  
-  .about_us{
-    border: 7px solid;
-    box-sizing: border-box;
-    margin-left: 475px;
-    margin-right: 475px;
-    text-align: center;
-    border-image: url(proba.gif) 10;
-    box-shadow: 20px 20px 40px black;
-    border-style: solid;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    
-  }
-  
-  .about_me{
-    text-align: center;
-    position: relative;
-  }
-  
-  .member_image {
-    object-fit:cover;
-    width: 200px;
-    height: 200px
-  }
 
-  
+    .owner_txt {
+        color:#FFFFFF;
+        font-family: 'Source Sans 3', sans-serif;
+        font-size: 25px;
+        font-weight:700;
+        background-clip: border-box;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-image: url(https://64.media.tumblr.com/2abbf3b2e26855cea95b9218e46cda76/58ed8cdcbb6234ed-92/s400x600/e2ce3b42e7c7e8b8332c42150820bbe95ddaa98a.gifv), linear-gradient(90deg, #ffffff00 0, rgba(255, 255, 0, 0) 100%, rgba(255, 255, 255, 0));
+        text-shadow: 2px 2px 10px black;
+          top: 0;
+          text-align: center;
+          width: 100%;
+          margin-top: 2px;
+          -webkit-user-select: none;     
+          -moz-user-select: none;
+          -ms-user-select: none;
+          user-select: none;
+        }
+    
+        .vip_txt {
+            color:#FFFFFF;
+            font-family: 'Source Sans 3', sans-serif;
+            font-size: 25px;
+            font-weight:700;
+            background-clip: border-box;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-image: url(https://64.media.tumblr.com/4decad1d3f00dbf4c80ee25d0f62088f/c3c7eebd7080503b-c2/s400x600/8d6ebf5938f22085ae1eaf790e710c16b8923991.gifv), linear-gradient(90deg, #ffffff00 0, rgba(255, 255, 0, 0) 100%, rgba(255, 255, 255, 0));
+            text-shadow: 2px 2px 10px black;
+              top: 0;
+              text-align: center;
+              width: 100%;
+              margin-top: 2px;
+              -webkit-user-select: none;     
+              -moz-user-select: none;
+              -ms-user-select: none;
+              user-select: none;
+            }
+        
